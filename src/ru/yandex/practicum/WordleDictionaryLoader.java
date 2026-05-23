@@ -27,7 +27,7 @@ public class WordleDictionaryLoader {
 
                 String line; // объявление переменной строки из словаря которую читать буду одна за другой
 
-                while ((line = reader.readLine()) != null) {// цикл: читаю строчку и если не равна нулю
+                while ((line = reader.readLine()) != null) { // цикл: читаю строчку и если не равна нулю
 
                     words.add(line); // добавляю в список слов
                 }
