@@ -30,7 +30,7 @@
             public String makeMove(String guess) { //
                 guess = dictionary.normalizeWord(guess);
 
-                if (guess.length() != 5) {
+                if (guess.length() != MAX_ATTEMPTS) {
                     return "Слово должно содержать 5 букв";
                 }
                 if (!dictionary.contains(guess)) {

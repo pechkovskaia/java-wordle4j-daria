@@ -38,13 +38,6 @@ public class WordleDictionary {
         int index = random.nextInt(words.size());
         return words.get(index);
     }
-        // contains(String words);
-            // lowercase
-            // ё - е
-            // trim
-       // getRandomWord();
-
-       // normalizeWord(String word);
 
 
 }
